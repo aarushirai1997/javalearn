@@ -11,7 +11,7 @@ class Ideone
 	{
 		Scanner in= new Scanner(System.in);
 	char n=in.next().charAt(0);
-	if((n>='A'&&n<='Z')||(n>='a'&&n<+'z'))
+	if((n>='A'&&n<='Z')||(n>='a'&&n<='z'))
 	{System.out.println("alphabet");}
 	else
 	{System.out.println("not an alphabet");}
